@@ -94,19 +94,19 @@ WSGI_APPLICATION = 'stpa.wsgi.application'
 #     'default': {
 #         'ENGINE': 'django.db.backends.sqlite3',
 #         'NAME': BASE_DIR / 'db.sqlite3',}
+# }
 
 
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'shanaya',
-        'USER': 'root',
-        'PASSWORD':'Pj@123456',
-        'HOST' : 'localhost',
-        'PORT': '3306',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'shanaya',
+#         'USER': 'root',
+#         'PASSWORD':'Pj@123456',
+#         'HOST' : 'localhost',
+#         'PORT': '3306',
+#     }
+# }
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.mysql',
@@ -118,6 +118,18 @@ DATABASES = {
 #     }
 # }
 
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'shanaya',
+        'USER': 'root',
+        'PASSWORD':'shanaya2',
+        'HOST' : '34.100.214.94',
+        'PORT': '3306',
+    }
+}
 
 
 
